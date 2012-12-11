@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+     
+   <VideoView
+       android:id="@+id/trailer_video_view"
+       android:layout_width="wrap_content"
+       android:layout_height="0dp"
+       android:layout_weight="2"
+       android:layout_gravity="center_horizontal"/>
+   
+   <TextView 
+       android:id="@+id/description_text_view"
+       android:layout_width="match_parent"
+       android:layout_height="0dp"
+       android:layout_weight="1"
+       android:textSize="14sp"
+       android:text="    An acoustic and electric violin cover of the main theme song from Game of Thrones. Arranged and performed by Jason Yang. Original song and soundtrack by Ramin Djawadi."/>
+</LinearLayout>
